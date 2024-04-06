@@ -32,6 +32,15 @@
   font-weight: 900;
 }
 
+.rating {
+  width: 20px;
+  height: 20px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 5px;
+  padding: 0px;
+}
+
 
 .button {
   background-color: rgba(253, 186, 16, 1);

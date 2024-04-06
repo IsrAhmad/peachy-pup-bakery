@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./contact-us.component.css']
 })
 export class ContactUsComponent {
+  sendUserData(data:any) {
+    console.log(data)
+  }
 
 }

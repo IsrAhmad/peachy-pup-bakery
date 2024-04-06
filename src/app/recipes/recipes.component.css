@@ -13,10 +13,9 @@
   height: 504px;
   display: flex;
   flex-direction: row;
-  gap: 36px;
+  gap: 20px;
   margin:auto;
-  /* justify-content: center;
-  align-items: center; */
+  overflow: hidden;
 }
 
 .recipe {

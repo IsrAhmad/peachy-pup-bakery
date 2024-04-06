@@ -7,20 +7,23 @@
       <div
         class="col-md-6 d-flex justify-content-center align-items-center flex-column"
       >
-        <form class="d-flex flex-column gap-3" action="">
+        <form class="d-flex flex-column gap-3" #contactUs="ngForm" (ngSubmit)="sendUserData(contactUs.value)">
           <input
             class="contact-info border-0"
             type="text"
+            name="name"
             placeholder="Full Name"
           />
           <input
             class="contact-info border-0"
             type="text"
+            name="email"
             placeholder="Email"
           />
           <input
             class="contact-info border-0"
             type="text"
+            name="phone"
             placeholder="Phone Number"
           />
         </form>
