@@ -1,0 +1,36 @@
+
+.contact-us {
+  height: 554px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.title {
+  font-size: 144px;
+  font-weight: 800;
+  color: rgba(201, 138, 64, 1);
+}
+
+.contact-info {
+  background: rgba(255, 211, 159, 1);
+  width: 374px;
+  height: 56px;
+  border-radius: 30px;
+}
+
+::placeholder {
+  color: rgba(88, 65, 37, 1);
+  font-weight: 800;
+  padding: 1rem;
+}
+
+
+.button {
+  border: 3px solid rgba(201, 138, 64, 1);
+  border-radius: 30px;
+  width: 194px;
+  height: 60px;
+  font-size: 18px;
+  font-weight: 900;
+}

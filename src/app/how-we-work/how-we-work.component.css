@@ -1,0 +1,56 @@
+
+.work {
+  height: 840px;
+  position: relative;
+}
+
+.title {
+  font-size: 144px;
+  font-weight: 800;
+  /* padding: auto; */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: flex-start; */
+}
+
+.work-paragraph {
+  width: 277px;
+  height: 156px;
+  color: rgba(201, 138, 64, 1);
+  margin-top: 28%;
+}
+
+.pastry-1 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  background-image: url("../../assets/pastry-2.png");
+  background-size: cover;
+  background-position: center;
+}
+
+image {
+  width: 19rem;
+  height: 19rem;
+}
+
+.pastry-2 {
+  position: absolute;
+  top: 50%;
+  left: 13%;
+}
+
+.pastry-3 {
+  display: flex;
+  flex-direction: row;
+  gap: 36px;
+}
+
+.button {
+  background-color: rgba(253, 186, 16, 1);
+  border-radius: 30px;
+  width: 194px;
+  height: 60px;
+  font-size: 18px;
+  font-weight: 900;
+}

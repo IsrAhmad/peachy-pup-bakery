@@ -1,0 +1,47 @@
+
+.about {
+  height: 840px;
+}
+
+.description {
+  width: 508px;
+}
+
+
+.title {
+  font-size: 144px;
+  font-weight: 800;
+}
+
+.about-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+
+.button {
+  background-color: rgba(253, 186, 16, 1);
+  border-radius: 30px;
+  width: 194px;
+  height: 60px;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+
+.baker-1 {
+  position: relative;
+}
+
+.baker-2 {
+  width: 683px;
+  height: 710px;
+  position: absolute;
+  top: 8%;
+  right: 17%;
+  /* bottom: -20%; */
+}

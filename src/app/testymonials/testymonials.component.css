@@ -1,0 +1,43 @@
+
+.testymonials {
+  height: 898px;
+
+  background-image: url("../../assets/pastry-3.png");
+  background-size: cover;
+  background-position: center;
+}
+
+
+.title {
+  font-size: 144px;
+  font-weight: 800;
+}
+
+.review-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.review {
+  width: 512px;
+  height: 192px;
+  border-radius: 30px;
+  padding: 1rem;
+}
+
+.reviewer {
+  color: rgba(201, 138, 64, 1);
+  font-weight: 900;
+}
+
+
+.button {
+  background-color: rgba(253, 186, 16, 1);
+  border-radius: 30px;
+  width: 194px;
+  height: 60px;
+  font-size: 18px;
+  font-weight: 900;
+}
