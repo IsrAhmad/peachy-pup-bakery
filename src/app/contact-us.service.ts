@@ -1,12 +1,13 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ContactUsService {
 
-  url = '';
+  url = 'http://upskilling-egypt.com:3001/contact';
 
   constructor(private _HttpClient:HttpClient) {}
 
@@ -14,7 +15,13 @@ export class ContactUsService {
     console.log(data)
   }
 
+  contactUs(userData:object):Observable<any> {
+    return this._HttpClient.post(this.url, userData)
+  }
+
   // saveUserData(data:any) {
   //   return this._HttpClient.post(this.url, data);
   // }
 }
+
+
